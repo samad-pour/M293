@@ -1,0 +1,87 @@
+@import url("../img/modules/design.css");
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+   }
+   html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    background: linear-gradient(90deg, #364f59 -50%, #181e41 50%);
+    font-family: Poppins, sans-serif;
+   }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+ margin: 0;
+}
+
+.bg-image,
+.bg-image2,
+font-color.absolute {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.infos {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.halfwidth,
+.nmcol6 {
+ width: 50%;
+}
+
+.formrow input[name="subject"],
+.formrow input[type="submit"],
+.fullwidth,
+.nmcol12,
+textarea {
+ width: 100%;
+}
+
+.formrow {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+}
+
+.formrow input,
+.formrow label {
+ width: 48%;
+}
+
+.border1 {
+ border-radius: 1rem;
+}
+
+.container {
+ max-width: 1200px;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.row {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-wrap: wrap;
+ flex-wrap: wrap;
+}
+
+.bg-input {
+    background-color: rgba(248, 250, 252, 0.5);
+   }
